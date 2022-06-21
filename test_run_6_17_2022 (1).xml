@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R4</id>
+	<name>Test Run 6/17/2022</name>
+	<description>Продолжаем прогоны.</description>
+	<config></config>
+	<createdon>2022-06-17T10:59:35Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>67</percent>
+			<count>2</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>33</percent>
+			<count>1</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Тест формы авторизации</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Тест формы авторизации, еще примеры)</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T22</id>
+				<title>Валидные знач., форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим валидную почту tttggg@yandex.ru
+Кликаем на кнопку create account</steps>
+										<expected>Завершается первый этап регистрации
+
+После нажатия кнопки нас перебрасывает на страницу полной регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</expected>
+									</custom>
+												<caseid>C36</caseid>
+																<status>Passed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-17T11:00:03Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-17T10:59:35Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T23</id>
+				<title>Валидные знач., форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим валидную почту tttggg@yahoo.com
+Кликаем на кнопку create account</steps>
+										<expected>Завершается первый этап регистрации
+
+
+
+После нажатия кнопки нас перебрасывает на страницу полной регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</expected>
+									</custom>
+												<caseid>C37</caseid>
+																<status>Passed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-17T11:00:12Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-17T10:59:35Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T24</id>
+				<title>Невалидное знач., форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим невалидную почту, превышение количества знаков в username wwwmmmaaahhhyyybbbdddiiijjjsssxxxcccvvvttt@mail.ru
+Кликаем на кнопку create account</steps>
+										<expected>После нажатия кнопки появляется красное окно с текстом: Invalid email address - неверный адрес</expected>
+									</custom>
+												<caseid>C38</caseid>
+																<status>Failed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-17T11:01:50Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>Актуальный результат - переход на второй этап регистрации. Ожидаемый и актуальный результаты разные. </comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-17T10:59:35Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>

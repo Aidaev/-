@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description>Айдаев Муслим. Тестирование формы авторизации.</description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C29</id>
+				<title>Форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Задача - написать тест-кейсы по форме авторизации. Имеем сайт с формой авторизации по электронному адресу. Выяснили, какие валидные и невалидные значения можем внести в графу адреса электронной почты. Разделили все по классам и начинаем тестирование.</preconds>
+										<steps>Первый шаг - заходим по ссылке; второй шаг - вводим данные. В первых семи случаях вводим валидные(позитивные) данные электронного адреса, меняя только вторую часть(имя сервера) - ya.ru, mail.ru, gmail.ru, inbox.ru, ok.ru, rambler.ru, yahoo.com. </steps>
+										<expected>Переход на следующий этап регистрации. </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>форма авторизации 2</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Задача - написать тест-кейсы по форме авторизации. Имеем сайт с формой авторизации по электронному адресу. Выяснили, какие валидные и невалидные значения можем внести в графу адреса электронной почты. Разделили все по классам и начинаем тестирование.
+
+
+</preconds>
+										<steps>Первый шаг - заходим по ссылке; второй шаг - вводим невалидные(негативные) данные. Адрес без знака собачки &quot;@&quot; - tttttt.ya.ru</steps>
+										<expected>неверный адрес, отказ в переходе на следующий этап. </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Форма авторизации 3</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Задача - написать тест-кейсы по форме авторизации. Имеем сайт с формой авторизации по электронному адресу. Выяснили, какие валидные и невалидные значения можем внести в графу адреса электронной почты. Разделили все по классам и начинаем тестирование.
+
+
+</preconds>
+										<steps>Первый шаг - заходим по ссылке; второй шаг - вводим невалидные(негативные) данные. Вводим несуществующее имя сервера - tttttt@tr.ru</steps>
+										<expected>неверный адрес, отказ в переходе на следующий этап.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Форма авторизации 4</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Задача - написать тест-кейсы по форме авторизации. Имеем сайт с формой авторизации по электронному адресу. Выяснили, какие валидные и невалидные значения можем внести в графу адреса электронной почты. Разделили все по классам и начинаем тестирование.
+
+
+</preconds>
+										<steps>Первый шаг - заходим по ссылке; второй шаг - вводим невалидные(негативные) данные. Вводим несуществующее имя сервера без букв, только символ - tttttt@.ru</steps>
+										<expected>неверный адрес, отказ в переходе на следующий этап.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Форма авторизации 5</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Задача - написать тест-кейсы по форме авторизации. Имеем сайт с формой авторизации по электронному адресу. Выяснили, какие валидные и невалидные значения можем внести в графу адреса электронной почты. Разделили все по классам и начинаем тестирование.
+
+
+</preconds>
+										<steps>Первый шаг - заходим по ссылке; второй шаг - вводим невалидные(негативные) данные. Вводим некорректные данные в первой части имени пользователя - 1@mail.ru</steps>
+										<expected>неверный адрес, отказ в переходе на следующий этап.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Форма авторизации 6</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Задача - написать тест-кейсы по форме авторизации. Имеем сайт с формой авторизации по электронному адресу. Выяснили, какие валидные и невалидные значения можем внести в графу адреса электронной почты. Разделили все по классам и начинаем тестирование.
+
+
+</preconds>
+										<steps>Первый шаг - заходим по ссылке; второй шаг - вводим невалидные(негативные) данные. Вводим символ &quot;точку&quot; в начале имени пользователя - .tttttt@ya.ru</steps>
+										<expected>неверный адрес, отказ в переходе на следующий этап.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Форма авторизации 7</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Задача - написать тест-кейсы по форме авторизации. Имеем сайт с формой авторизации по электронному адресу. Выяснили, какие валидные и невалидные значения можем внести в графу адреса электронной почты. Разделили все по классам и начинаем тестирование.
+
+
+</preconds>
+										<steps>Первый шаг - заходим по ссылке; второй шаг - вводим невалидные(негативные) данные. Вводим некорректные данные в поле домена высшего уровня - tttttt@ya.bb</steps>
+										<expected>неверный адрес, отказ в переходе на следующий этап.</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Тест формы авторизации</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C15</id>
+				<title>Валидные значения, форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс. 
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</preconds>
+										<steps>Кликаем поле email address 
+Вводим валидную почту tttggg@mail.ru
+Кликаем на кнопку create account </steps>
+										<expected>Завершается первый этап регистрации
+После нажатия кнопки нас перебрасывает на страницу полной регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C16</id>
+				<title>Невалидные значения, форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим невалидную почту, без &quot;собачки&quot; tttgggmail.ru
+Кликаем на кнопку create account</steps>
+										<expected>
+
+После нажатия кнопки появляется красное окно с текстом: Invalid email address - неверный адрес</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C17</id>
+				<title>Невалидные значения, форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим невалидную почту, в доменном имени не ставим точку tttggg@mailru
+Кликаем на кнопку create account</steps>
+										<expected>После нажатия кнопки появляется красное окно с текстом: Invalid email address - неверный адрес</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C18</id>
+				<title>Невалидные значения, форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим невалидную почту, имя пользователя пишем кириллицей фффббб@mail.ru
+Кликаем на кнопку create account</steps>
+										<expected>После нажатия кнопки появляется красное окно с текстом: Invalid email address - неверный адрес</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C19</id>
+				<title>Невалидные значения, форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим невалидную почту, кириллица в доменном имени tttggg@ффф.ббб
+Кликаем на кнопку create account</steps>
+										<expected>После нажатия кнопки появляется красное окно с текстом: Invalid email address - неверный адрес</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C20</id>
+				<title>Невалидные значения, форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим невалидную почту, точку в начале имени пользователя .tttggg@mail.ru
+Кликаем на кнопку create account</steps>
+										<expected>После нажатия кнопки появляется красное окно с текстом: Invalid email address - неверный адрес</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C21</id>
+				<title>Невалидные значения, форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+ 
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим невалидную почту, только один знак в имени пользователя +@mail.ru
+Кликаем на кнопку create account
+
+</steps>
+										<expected>После нажатия кнопки появляется красное окно с текстом: Invalid email address - неверный адрес</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Тест формы авторизации, еще примеры)</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C36</id>
+				<title>Валидные знач., форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим валидную почту tttggg@yandex.ru
+Кликаем на кнопку create account</steps>
+										<expected>Завершается первый этап регистрации
+
+После нажатия кнопки нас перебрасывает на страницу полной регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C37</id>
+				<title>Валидные знач., форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим валидную почту tttggg@yahoo.com
+Кликаем на кнопку create account</steps>
+										<expected>Завершается первый этап регистрации
+
+
+
+После нажатия кнопки нас перебрасывает на страницу полной регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C38</id>
+				<title>Невалидное знач., форма авторизации</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Браузер Яндекс.
+
+
+
+Открыта страница http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-
+
+
+
+
+</preconds>
+										<steps>Кликаем поле email address
+Вводим невалидную почту, превышение количества знаков в username wwwmmmaaahhhyyybbbdddiiijjjsssxxxcccvvvttt@mail.ru
+Кликаем на кнопку create account</steps>
+										<expected>После нажатия кнопки появляется красное окно с текстом: Invalid email address - неверный адрес</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
